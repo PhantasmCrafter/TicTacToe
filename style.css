@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(46, 6, 6);
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.image{
+    height: 30px;
+}
+
+.choice{
+    text-align: center;
+    margin: 0px auto;
+    font-size: 25px;
+    color: white;
+}
+.block{
+    background-color: rgb(79, 83, 11);
+    width: 100px;
+    height: 100px;
+     margin: 5px;
+}
+#blocks{
+    background-color: rgb(17, 55, 61);
+    display:  grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.block-group{
+    display: flex;
+    
+}
+.reload{
+    cursor: pointer;
+    text-align: center;
+    background: cornflowerblue;
+    padding: 10px;
+    user-select: none;
+    border: 1px solid black;
+    font-size: 24px;   
+    font-family: monospace;
+    transition:all;
+    transition-duration: 1s;
+}
+.reload:hover{
+    background-color: rgb(56, 9, 28);
+    color: white;
+}
+.reload > img{
+    height: 30px;
+    margin: 5px;
+    margin-bottom: -5px;   
+}
+#message-winner{
+    position: absolute;
+    bottom: -400px;
+    border:2px solid rgb(82, 94, 42);
+    color: rgb(18, 6, 27); 
+    background-color: thistle;
+    height: 50px;
+    width: 100vw;
+    font-size: 23px;
+    transition: 0.8s;
+    text-align: center;
+    box-shadow: 3px 8px 20px rgb(16, 67, 109) inset;
+}
+#message-winner  img{
+    margin-top: 5px;
+}
+.score-board{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 23px;
+    padding: 20px;
+}
+.enter-name{
+    position:  fixed;
+    right: 5px;
+    top: 0px;
+    color: rgb(255, 136, 0);
+    background-color: white;
+    padding: 3px;
+}
+.score{
+    color: yellow;
+}
+

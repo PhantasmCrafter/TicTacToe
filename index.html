@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png">
+    <title>type</title>
+</head>
+<body>
+    <div class="enter-name">Change Name</div>
+
+    <div class="game">
+        <div class="choice">    
+           <span class="first-player">Player 1: </span><img src="cross.png" class="image"><br>
+           <span class="second-player">Player 2: </span><img src="circle.png" class="image">
+            
+            
+        </div>
+        <div id="blocks">
+            <div class="first-block block-group">
+                <span class="block" id="block-1"></span>
+                <span class="block" id="block-2"></span>
+                <span class="block" id="block-3"></span>
+            </div>
+            <div class="second-block block-group">
+                <span class="block" id="block-4"></span>
+                <span class="block" id="block-5"></span>
+                <span class="block" id="block-6"></span>
+            </div>
+            <div class="third-block block-group">
+            <span class="block" id="block-7"></span>
+            <span class="block" id="block-8"></span>
+            <span class="block" id="block-9"></span>
+        </div>
+        <div class="reload"><img src="reload.png" height="auto">Reload</div>
+        <div class="score-board">
+            <div class="player">
+                <span class="first-player fp">Player 1: </span> <span id="first-score" class="score">0</span>
+            </div>
+            <div class="player-2">
+                <span class="second-player sp">Player 2: </span><span id="second-score" class="score">0</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="message-winner"></div> 
+    <script src="index.js"></script>
+</body>
+<!-- <script src="https://use.fontawesome.com/299edf00a0.js"></script> -->
+</html>
